@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senhas</title>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <label for="tamanho">Tamanho de Caracteres:</label>
+    <input type="number" id="tamanho" min="1" max="24" value="8">
+    <br><br>
+    <label>
+        <input type="checkbox" id="maiuscula" checked>
+        Maiúsculas
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" id="minuscula" checked>
+        Minúsculas
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" id="numeros" checked>
+        Números
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" id="especial" checked>
+        Caracteres Especiais
+    </label>
+    <br><br>
+    <button id="gerar">Gerar Senha</button>
+    <button id="limpar">Limpar</button>
+    <br><br>
+    <label for="senha">Senha:</label>
+    <input type="text" id="senha" readonly>
+    <p id="mensagem"></p>
+
+
+
+</body>
+
+</html>
